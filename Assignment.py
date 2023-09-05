@@ -5,5 +5,5 @@ for students in range(1, 17):
     score_3 = int(input('Enter test score 3: '))
     score_4 = int(input('Enter test score 4: '))
     average = (score_1 + score_2 + score_3 + score_4) / 4
-    print(average)
+    print(f"The average score of {student_name} is {average}")
     print()
